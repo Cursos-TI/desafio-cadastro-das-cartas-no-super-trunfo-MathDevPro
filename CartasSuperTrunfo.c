@@ -11,6 +11,9 @@ int main() {
    char nome;
    double area;
    double populacao;
+   double pib;
+   int pontosturisticos;
+
 
    printf ("Insira o código da cidade: \n");
    scanf ("%d", &codigo);
@@ -23,6 +26,12 @@ int main() {
 
    printf ("Insira a quantidade populacional: \n");
    scanf ("%f", &populacao);
+
+   printf ("Insira o PIB percapito \n");
+   scanf ("%f", &pib);
+
+   printf ("Insira a quantidade de pontos turísticos: \n");
+   scanf ("%d", &pontosturisticos);
 
 
    
