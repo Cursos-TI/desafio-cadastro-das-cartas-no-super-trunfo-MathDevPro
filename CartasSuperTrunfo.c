@@ -120,5 +120,50 @@ int main() {
     // Comparação de Super Poder
     printf("Super Poder: Carta 1 venceu (%d)\n", (superpoder1 > superpoder2));
 
-    return 0;
+    printf("-----A carta com o maior tamanho em área vence-----\n");
+    //exibe o critério de decisão
+
+if ( area1 > area2){
+    printf("A carta 1 venceu!\n");
+} else {
+    printf("A carta 2 venceu!\n");
+}
+//comparando  usando condições if-else
+
+printf("-----A carta com o maior PIB vence-----\n");
+//exibe o critério de decisão
+if ( pib1 > pib2){
+    printf("A carta 1 venceu!\n");
+} else {
+    printf("A carta 2 venceu!\n");
+}
+//comparando  usando condições if-else;
+
+printf("-----A carta com a maior população vence-----\n");
+//exibe o critério de decisão
+if ( populacao1 > populacao2){
+    printf("A carta 1 venceu!\n");
+} else {
+    printf("A carta 2 venceu!\n");
+}
+//comparando  usando condições if-else;
+
+printf("-----A carta com a menor densidade populacional-----\n");
+//exibe o critério de decisão
+if ( densidadepopulacional1 < densidadepopulacional2){
+    printf("A carta 1 venceu!\n");
+} else {
+    printf("A carta 2 venceu!\n");
+}
+//comparando  usando condições if-else;
+
+printf("-----A carta com a maior quantidade de pontos turisticos vence-----\n");
+//exibe o critério de decisão
+if ( pontosturisticos1 > pontosturisticos2){
+    printf("A carta 1 venceu!\n");
+} else {
+    printf("A carta 2 venceu!\n");
+}
+//comparando  usando condições if-else;
+return 0;
 }
